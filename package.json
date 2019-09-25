@@ -1,0 +1,26 @@
+{
+    "name": "mctemplate",
+    "version": "1.0.0",
+    "description": "Minecraft Function Template Processor",
+    "main": "index2.js",
+    "bin": {
+        "pkg": "./index2.js",
+        "mcmake": "./index2.js"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/vic797/mcmake.git"
+    },
+    "author": "vic797",
+    "license": "GPL-3.0",
+    "dependencies": {
+        "argparse": "^1.0.10",
+        "js-yaml": "^3.13.1",
+        "jszip": "^3.2.2",
+        "readline-sync": "^1.4.10",
+        "tmp": "^0.1.0"
+    }
+}

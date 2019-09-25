@@ -1,0 +1,17 @@
+# Build instructions
+testworld: Datapacks
+name: test datapack
+description: A simple test datapack
+format: 1
+
+# Global variables
+# Put your variables here
+hello: Hello, world!
+debug: false
+blocks: 
+  - minecraft:grass
+  - minecraft:dirt
+  - minecraft:stone
+
+range: !range [0, 16]
+#coords: !coord [0, 0, 0]
