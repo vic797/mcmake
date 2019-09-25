@@ -1,6 +1,6 @@
 # MCmake
 
-**MCmake** is a tool for making [data packs](https://minecraft.gamepedia.com/Data_pack) for [Minecraft](https://www.minecraft.net/) that supports [variables](https://en.wikipedia.org/wiki/Variable_(computer_science)), conditions and loops. MCmake is ment to avoid coping entire commands over and over only to change a block id or a number. MCmake uses [YAML](https://en.wikipedia.org/wiki/YAML) for the data.
+**MCmake** is a tool for making [data packs](https://minecraft.gamepedia.com/Data_pack) for [Minecraft](https://www.minecraft.net/) that supports [variables](https://en.wikipedia.org/wiki/Variable_(computer_science)), conditions and loops. MCmake is intended to avoid coping entire commands over and over only to change a block id or a number. MCmake uses [YAML](https://en.wikipedia.org/wiki/YAML) for the data.
 
 > YAML is a human-readable data-serialization language.
 
