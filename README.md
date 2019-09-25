@@ -6,7 +6,7 @@
 
 ## Installing
 
-Download the stand alone executables from [releases](#)
+Download the stand alone executables from [releases](https://github.com/vic797/mcmake/releases)
 
 ## Running from source
 
