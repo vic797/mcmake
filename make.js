@@ -76,7 +76,6 @@ module.exports = make = {
             //make.deleteDir(output);
             if (!fs.existsSync(output)) fs.mkdirSync(output);
             make.makeMeta(data, output);
-            output = path.join(output, "data");
             if (!fs.existsSync(output)) fs.mkdirSync(output);
             return make.compile(dir, output, data);
         } else {

@@ -54,7 +54,7 @@ function initialize(dire) {
             "# Put your variables here" + end +
             "hello: Hello, world!" + end;
         fs.writeFileSync(path.join(dire, "pack.yml"), text);
-        fs.mkdirSync(path.join(dire, ns));
+        fs.mkdirSync(path.join(dire, "data", ns), { recursive: true });
         console.log("Generated new datapack in " + dire)
     } else {
         abort("Minecraft folder not found!", 1);
@@ -126,8 +126,8 @@ function main() {
             defaultValue: "."
         }
     );
-    checkMinecraft();
     var args = parser.parseArgs();
+    checkMinecraft();
     if ((args.init && args.make) ||
         (args.make && args.zip != null) ||
         (args.init && args.zip != null) ||

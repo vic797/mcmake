@@ -1,6 +1,6 @@
 {
     "name": "mctemplate",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Minecraft Function Template Processor",
     "main": "index2.js",
     "bin": {

@@ -1,0 +1,7 @@
+Package: MCmake
+Version: 1.0.1
+Maintainer: vic797 <washu.gupta.391u@neweranews4.com>
+Homepage: https://github.com/vic797/mcmake/
+Architecture: amd64
+Priority: optional
+Description: A Minecraft Data Pack Compiler
